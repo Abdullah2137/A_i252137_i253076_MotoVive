@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    color: black;
+    background-color: #a2a0a0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    margin: 0px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#search {
+    border: 2px;
+    border-color: #b77878;
+    border-style: solid;
+    padding-right: 5%;
+    padding-top: .5%;
+    padding-bottom: .4%;
+    border-radius: 50px;
+    background-color: #b77878;
+    padding-left: .5%;
+    resize: none;
+    line-height: 50%;
+    color: black;
+}
+
+.main_body {
+    font-size: 45px;
+    font-family: 'Italiana', serif;
+    margin-left: 1.5%;
+}
+
+.product_pic {
+    margin-top: 3%;
+    border-radius: 50px;
+    justify-self: center;
+    opacity: 0.4;
+}
+
+.display {
+    font-size: 45px;
+    font-family: 'Italiana', serif;
+    justify-self: center;
+    margin: .5%;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: .05em;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images img{
+    width: 20%;
+}
+
+footer {
+    display: flex;
+    padding: 12px 5%;
+    margin-bottom: 5vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #99A1AF;
+}
+
+.logo,
+.footer_text,
+.footer_links2,
+.Quick_contact {
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer_text {
+    display: inline;
+    font-size: 2rem;
+}
+
+.footer_links {
+    line-height: 200%;
+    margin-top: 12px;
+    color: #99A1AF;
+    font-size: 16px;
+}
+
+.footer_links2 {
+    display: inline;
+    line-height: 200%;
+    color: #99A1AF;
+    font-size: 16px;
+    padding-left: 2%;
+}
+
+.Quick_contact {
+    padding-top: 0px;
+    font-size: 2rem;
+}
+
+.footer_links3 {
+    padding-left: 2.7%;
+    line-height: 200%;
+    color: #99A1AF;
+    font-size: 16px;
+    white-space: nowrap;
+}
